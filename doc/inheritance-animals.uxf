@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>630</x>
+      <y>480</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Bird
+--
+- wingSpan: int
+
+--
++ constructeur
++ toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>320</x>
+      <y>480</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>LandMammal
+--
+- furColor: String
+
+--
++ constructeur
++ toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>600</x>
+      <y>150</y>
+      <w>320</w>
+      <h>230</h>
+    </coordinates>
+    <panel_attributes>/Animal/
+--
+- species: String
+- ecosystem: String
+
+
+--
++ constructeur
++ getters
++ setters
+/+ displayLocomotionType() : void/
+
+--
+Responsabilités :
+-- représente un animal
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>410</x>
+      <y>370</y>
+      <w>230</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>210.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>720</x>
+      <y>370</y>
+      <w>30</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>950</x>
+      <y>480</y>
+      <w>210</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Fish
+--
+- preferredWaterDepth: int
+
+--
++ constructeur
++ toString(): String
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>820</x>
+      <y>370</y>
+      <w>250</w>
+      <h>130</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;230.0;110.0</additional_attributes>
+  </element>
+</diagram>
